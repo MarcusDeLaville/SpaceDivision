@@ -43,7 +43,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
+  serializedVersion: 11
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -118,8 +118,6 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
-    maxJobWorkers: 0
-    preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
@@ -178,7 +176,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -231,35 +228,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _mapPrefabs:
+  - {fileID: 5464811676732147529, guid: 8a4028fb727a5b2439264491e7d8f697, type: 3}
+  - {fileID: 5030618044607261231, guid: 11c4554159e59a646883ad41b2430ec1, type: 3}
+  - {fileID: 3467844851541749682, guid: a4aefd48efffbf243ab756130b0da3ff, type: 3}
+  - {fileID: 2728210513738961934, guid: 547837504d01f5c458bd71dc37d135ad, type: 3}
   - {fileID: 2761268446779976592, guid: 42225963150f78c40b7ff5402095bb5c, type: 3}
   - {fileID: 3502507196741859181, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}
-  - {fileID: 3467844851541749682, guid: a4aefd48efffbf243ab756130b0da3ff, type: 3}
   - {fileID: 5464811676732147529, guid: 8a4028fb727a5b2439264491e7d8f697, type: 3}
-  - {fileID: 3502507196741859181, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}
-  - {fileID: 3502507196741859181, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}
-  - {fileID: 2728210513738961934, guid: 547837504d01f5c458bd71dc37d135ad, type: 3}
-  - {fileID: 3502507196741859181, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}
-  - {fileID: 3502507196741859181, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}
-  - {fileID: 3502507196741859181, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}
-  - {fileID: 3467844851541749682, guid: a4aefd48efffbf243ab756130b0da3ff, type: 3}
-  - {fileID: 3467844851541749682, guid: a4aefd48efffbf243ab756130b0da3ff, type: 3}
-  - {fileID: 3467844851541749682, guid: a4aefd48efffbf243ab756130b0da3ff, type: 3}
+  - {fileID: 5464811676732147529, guid: 8a4028fb727a5b2439264491e7d8f697, type: 3}
   - {fileID: 3467844851541749682, guid: a4aefd48efffbf243ab756130b0da3ff, type: 3}
   - {fileID: 3502507196741859181, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}
+  - {fileID: 3502507196741859181, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}
+  - {fileID: 2761268446779976592, guid: 42225963150f78c40b7ff5402095bb5c, type: 3}
   _generatedObject: []
   _corridors:
+  - {fileID: 193511001611520745, guid: 925113da638208b49afa63b75c2a1589, type: 3}
+  - {fileID: 5773719900262045877, guid: dcb26460c73fbd24db498362447784de, type: 3}
   - {fileID: 5387529202857237707, guid: bab30a4424d502f40b8b3d0105730691, type: 3}
   - {fileID: 3371344407581132626, guid: c1ac94afadfd661448fe3a5e8f5e4b23, type: 3}
   - {fileID: 2415242299781555553, guid: 4fc6802654b324940b0a6a577baa7333, type: 3}
   - {fileID: -985668648203812774, guid: 521fb5d6bf45c844ea59e141452cbea2, type: 3}
-  - {fileID: 5387529202857237707, guid: bab30a4424d502f40b8b3d0105730691, type: 3}
-  - {fileID: 5387529202857237707, guid: bab30a4424d502f40b8b3d0105730691, type: 3}
-  - {fileID: 3371344407581132626, guid: c1ac94afadfd661448fe3a5e8f5e4b23, type: 3}
-  - {fileID: 3371344407581132626, guid: c1ac94afadfd661448fe3a5e8f5e4b23, type: 3}
+  - {fileID: 193511001611520745, guid: 925113da638208b49afa63b75c2a1589, type: 3}
+  - {fileID: 5773719900262045877, guid: dcb26460c73fbd24db498362447784de, type: 3}
   - {fileID: 5387529202857237707, guid: bab30a4424d502f40b8b3d0105730691, type: 3}
   - {fileID: 3371344407581132626, guid: c1ac94afadfd661448fe3a5e8f5e4b23, type: 3}
-  - {fileID: 5387529202857237707, guid: bab30a4424d502f40b8b3d0105730691, type: 3}
   - {fileID: 2415242299781555553, guid: 4fc6802654b324940b0a6a577baa7333, type: 3}
+  - {fileID: -985668648203812774, guid: 521fb5d6bf45c844ea59e141452cbea2, type: 3}
+  - {fileID: 2415242299781555553, guid: 4fc6802654b324940b0a6a577baa7333, type: 3}
+  - {fileID: 193511001611520745, guid: 925113da638208b49afa63b75c2a1589, type: 3}
   _parrent: {fileID: 1103211413}
   _offsetX: 15
   _offsetY: -15
@@ -276,7 +272,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &108415042
 GameObject:
@@ -367,12 +363,11 @@ MonoBehaviour:
   _currentProloguePart: 0
   _closeButton: {fileID: 2142763382}
   _nextButton: {fileID: 1102056279}
-  _prologueKey: Instructions1
+  _prologueKey: Instructions0
   StartPrologue:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 355389177}
-        m_TargetAssemblyTypeName: OpenClosePanel, Assembly-CSharp
         m_MethodName: OpenPanel
         m_Mode: 2
         m_Arguments:
@@ -384,7 +379,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 840353153}
-        m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
         m_MethodName: OpenContextPanel
         m_Mode: 1
         m_Arguments:
@@ -429,7 +423,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 0.6666667}
   m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -536,12 +529,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1961289892280817584, guid: 9f25f443a56917f44b1718b43fcbaed7, type: 3}
+  m_Sprite: {fileID: 1961289892280817584, guid: 9f25f443a56917f44b1718b43fcbaed7,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -642,11 +635,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1691969524}
-        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
         m_MethodName: TapSound
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 6d080f076e50a4b41ad0fb6a17ace3cf, type: 3}
+          m_ObjectArgument: {fileID: 8300000, guid: 6d080f076e50a4b41ad0fb6a17ace3cf,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -654,7 +647,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1277020503}
-        m_TargetAssemblyTypeName: Prologue, Assembly-CSharp
         m_MethodName: NextProloguePart
         m_Mode: 1
         m_Arguments:
@@ -680,12 +672,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4987914821148657504, guid: 7a0b25773dc50a542bb3fe628d40a74a, type: 3}
+  m_Sprite: {fileID: -4987914821148657504, guid: 7a0b25773dc50a542bb3fe628d40a74a,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -786,11 +778,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1691969524}
-        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
         m_MethodName: TapSound
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 6d080f076e50a4b41ad0fb6a17ace3cf, type: 3}
+          m_ObjectArgument: {fileID: 8300000, guid: 6d080f076e50a4b41ad0fb6a17ace3cf,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -798,7 +790,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 840353153}
-        m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
         m_MethodName: CloseContextPanel
         m_Mode: 1
         m_Arguments:
@@ -810,7 +801,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 840353153}
-        m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
         m_MethodName: BackMajorMenu
         m_Mode: 1
         m_Arguments:
@@ -836,12 +826,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4987914821148657504, guid: 7a0b25773dc50a542bb3fe628d40a74a, type: 3}
+  m_Sprite: {fileID: -4987914821148657504, guid: 7a0b25773dc50a542bb3fe628d40a74a,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -911,7 +901,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -993,7 +982,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1069,12 +1057,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2494067699363254937, guid: 9b785cf7790df0045a1c11f506d257f4, type: 3}
+  m_Sprite: {fileID: -2494067699363254937, guid: 9b785cf7790df0045a1c11f506d257f4,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1190,7 +1178,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 355389177}
-        m_TargetAssemblyTypeName: OpenClosePanel, Assembly-CSharp
         m_MethodName: ClosePanel
         m_Mode: 2
         m_Arguments:
@@ -1202,11 +1189,11 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1691969524}
-        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
         m_MethodName: TapSound
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 6d080f076e50a4b41ad0fb6a17ace3cf, type: 3}
+          m_ObjectArgument: {fileID: 8300000, guid: 6d080f076e50a4b41ad0fb6a17ace3cf,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1214,7 +1201,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 840353153}
-        m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
         m_MethodName: CloseContextPanel
         m_Mode: 1
         m_Arguments:
@@ -1240,12 +1226,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4987914821148657504, guid: 7a0b25773dc50a542bb3fe628d40a74a, type: 3}
+  m_Sprite: {fileID: -4987914821148657504, guid: 7a0b25773dc50a542bb3fe628d40a74a,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1362,6 +1348,7 @@ RectTransform:
   - {fileID: 1665281322}
   - {fileID: 896195635}
   - {fileID: 1376725077}
+  - {fileID: 880268613}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1450,7 +1437,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1519,7 +1505,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1544,7 +1529,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -3648605702869075728, guid: aac5663cbe063684bbdff8ba96320724, type: 3}
+  m_Sprite: {fileID: -3648605702869075728, guid: aac5663cbe063684bbdff8ba96320724,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1601,7 +1587,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1689,7 +1674,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1762,7 +1746,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1787,7 +1770,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 3831080924269049147, guid: aac5663cbe063684bbdff8ba96320724, type: 3}
+  m_Sprite: {fileID: 3831080924269049147, guid: aac5663cbe063684bbdff8ba96320724,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1892,7 +1876,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1917,7 +1900,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -6082079878148601742, guid: aac5663cbe063684bbdff8ba96320724, type: 3}
+  m_Sprite: {fileID: -6082079878148601742, guid: aac5663cbe063684bbdff8ba96320724,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1954,7 +1938,8 @@ AudioSource:
   m_GameObject: {fileID: 604229020}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 2655547059486835341, guid: 9fd39395c3600a94c84a329fff463e56, type: 2}
+  OutputAudioMixerGroup: {fileID: 2655547059486835341, guid: 9fd39395c3600a94c84a329fff463e56,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -2107,7 +2092,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2182,7 +2166,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2263,7 +2246,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2338,7 +2320,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2407,7 +2388,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2432,7 +2412,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 4248063904682280067, guid: aac5663cbe063684bbdff8ba96320724, type: 3}
+  m_Sprite: {fileID: 4248063904682280067, guid: aac5663cbe063684bbdff8ba96320724,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2497,7 +2478,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2574,7 +2554,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2650,12 +2629,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8512653675723254151, guid: 6d66d529251418d4e9cabdf3f47b5c3c, type: 3}
+  m_Sprite: {fileID: 8512653675723254151, guid: 6d66d529251418d4e9cabdf3f47b5c3c,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2734,7 +2713,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2759,7 +2737,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 7322743805660847519, guid: aac5663cbe063684bbdff8ba96320724, type: 3}
+  m_Sprite: {fileID: 7322743805660847519, guid: aac5663cbe063684bbdff8ba96320724,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2844,7 +2823,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 0.6666667}
   m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2934,7 +2912,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.40000004, g: 0.39607847, b: 0.39607847, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2960,6 +2937,80 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864950133}
+  m_CullTransparentMesh: 0
+--- !u!1 &880268612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 880268613}
+  - component: {fileID: 880268615}
+  - component: {fileID: 880268614}
+  m_Layer: 5
+  m_Name: TravelBackground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &880268613
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880268612}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 355389176}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.0012207, y: -0.0099792}
+  m_SizeDelta: {x: 1920.0054, y: 1084.0281}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &880268614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880268612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 1}
+  m_RaycastTarget: 0
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: d1e59106893d73848aadf0080088fd6b, type: 3}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 0
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &880268615
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880268612}
   m_CullTransparentMesh: 0
 --- !u!1 &882588712
 GameObject:
@@ -3013,7 +3064,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.9811321, g: 0.50640243, b: 0.0786757, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3109,7 +3159,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 0.6666667}
   m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3186,7 +3235,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3365,7 +3413,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3514,11 +3561,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1691969524}
-        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
         m_MethodName: TapSound
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 6d080f076e50a4b41ad0fb6a17ace3cf, type: 3}
+          m_ObjectArgument: {fileID: 8300000, guid: 6d080f076e50a4b41ad0fb6a17ace3cf,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3526,7 +3573,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 355389177}
-        m_TargetAssemblyTypeName: OpenClosePanel, Assembly-CSharp
         m_MethodName: ClosePanel
         m_Mode: 2
         m_Arguments:
@@ -3538,7 +3584,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 840353153}
-        m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
         m_MethodName: CloseContextPanel
         m_Mode: 1
         m_Arguments:
@@ -3550,7 +3595,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 840353153}
-        m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
         m_MethodName: BackMajorMenu
         m_Mode: 1
         m_Arguments:
@@ -3576,12 +3620,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4987914821148657504, guid: 7a0b25773dc50a542bb3fe628d40a74a, type: 3}
+  m_Sprite: {fileID: -4987914821148657504, guid: 7a0b25773dc50a542bb3fe628d40a74a,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3758,7 +3802,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3833,7 +3876,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3912,7 +3954,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3993,7 +4034,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4062,7 +4102,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4087,7 +4126,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 3197245356676191804, guid: aac5663cbe063684bbdff8ba96320724, type: 3}
+  m_Sprite: {fileID: 3197245356676191804, guid: aac5663cbe063684bbdff8ba96320724,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4150,7 +4190,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4264,11 +4303,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1691969524}
-        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
         m_MethodName: TapSound
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 6d080f076e50a4b41ad0fb6a17ace3cf, type: 3}
+          m_ObjectArgument: {fileID: 8300000, guid: 6d080f076e50a4b41ad0fb6a17ace3cf,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -4276,7 +4315,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 355389177}
-        m_TargetAssemblyTypeName: OpenClosePanel, Assembly-CSharp
         m_MethodName: ClosePanel
         m_Mode: 2
         m_Arguments:
@@ -4288,7 +4326,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 840353153}
-        m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
         m_MethodName: CloseContextPanel
         m_Mode: 1
         m_Arguments:
@@ -4300,7 +4337,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 840353153}
-        m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
         m_MethodName: BackMajorMenu
         m_Mode: 1
         m_Arguments:
@@ -4326,12 +4362,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4987914821148657504, guid: 7a0b25773dc50a542bb3fe628d40a74a, type: 3}
+  m_Sprite: {fileID: -4987914821148657504, guid: 7a0b25773dc50a542bb3fe628d40a74a,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4432,11 +4468,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1691969524}
-        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
         m_MethodName: TapSound
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 6d080f076e50a4b41ad0fb6a17ace3cf, type: 3}
+          m_ObjectArgument: {fileID: 8300000, guid: 6d080f076e50a4b41ad0fb6a17ace3cf,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -4444,7 +4480,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 108415044}
-        m_TargetAssemblyTypeName: Prologue, Assembly-CSharp
         m_MethodName: NextProloguePart
         m_Mode: 1
         m_Arguments:
@@ -4470,12 +4505,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4987914821148657504, guid: 7a0b25773dc50a542bb3fe628d40a74a, type: 3}
+  m_Sprite: {fileID: -4987914821148657504, guid: 7a0b25773dc50a542bb3fe628d40a74a,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4521,7 +4556,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1138524466
 GameObject:
@@ -4575,7 +4610,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4644,7 +4678,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4669,7 +4702,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -2440355450126123017, guid: aac5663cbe063684bbdff8ba96320724, type: 3}
+  m_Sprite: {fileID: -2440355450126123017, guid: aac5663cbe063684bbdff8ba96320724,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4726,7 +4760,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4751,7 +4784,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -1495796495427720775, guid: aac5663cbe063684bbdff8ba96320724, type: 3}
+  m_Sprite: {fileID: -1495796495427720775, guid: aac5663cbe063684bbdff8ba96320724,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4795,7 +4829,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4820,7 +4853,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8745284039982918138, guid: aac5663cbe063684bbdff8ba96320724, type: 3}
+  m_Sprite: {fileID: 8745284039982918138, guid: aac5663cbe063684bbdff8ba96320724,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4912,7 +4946,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4972,7 +5005,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4997,7 +5029,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5088316998373936774, guid: aac5663cbe063684bbdff8ba96320724, type: 3}
+  m_Sprite: {fileID: 5088316998373936774, guid: aac5663cbe063684bbdff8ba96320724,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5089,7 +5122,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5252,7 +5284,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 0.6666667}
   m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5314,12 +5345,11 @@ MonoBehaviour:
   _currentProloguePart: 0
   _closeButton: {fileID: 1681066329}
   _nextButton: {fileID: 212425532}
-  _prologueKey: Prologu
+  _prologueKey: Prologuq
   StartPrologue:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 355389177}
-        m_TargetAssemblyTypeName: OpenClosePanel, Assembly-CSharp
         m_MethodName: OpenPanel
         m_Mode: 2
         m_Arguments:
@@ -5331,7 +5361,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 840353153}
-        m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
         m_MethodName: OpenContextPanel
         m_Mode: 1
         m_Arguments:
@@ -5388,7 +5417,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5413,7 +5441,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 5961413574744084474, guid: aac5663cbe063684bbdff8ba96320724, type: 3}
+  m_Sprite: {fileID: 5961413574744084474, guid: aac5663cbe063684bbdff8ba96320724,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5515,7 +5544,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.8773585, g: 0.42234105, b: 0.012415428, a: 0}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5588,7 +5616,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5676,7 +5703,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.764151, g: 0.3063813, b: 0.3063813, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5749,7 +5775,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5774,7 +5799,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 3197245356676191804, guid: aac5663cbe063684bbdff8ba96320724, type: 3}
+  m_Sprite: {fileID: 3197245356676191804, guid: aac5663cbe063684bbdff8ba96320724,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5868,7 +5894,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 355389177}
-        m_TargetAssemblyTypeName: OpenClosePanel, Assembly-CSharp
         m_MethodName: ClosePanel
         m_Mode: 2
         m_Arguments:
@@ -5880,11 +5905,11 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1691969524}
-        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
         m_MethodName: TapSound
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 6d080f076e50a4b41ad0fb6a17ace3cf, type: 3}
+          m_ObjectArgument: {fileID: 8300000, guid: 6d080f076e50a4b41ad0fb6a17ace3cf,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -5906,7 +5931,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5975,7 +5999,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6000,7 +6023,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -1078542883362172391, guid: aac5663cbe063684bbdff8ba96320724, type: 3}
+  m_Sprite: {fileID: -1078542883362172391, guid: aac5663cbe063684bbdff8ba96320724,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6057,7 +6081,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6082,7 +6105,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 2590185811940133651, guid: aac5663cbe063684bbdff8ba96320724, type: 3}
+  m_Sprite: {fileID: 2590185811940133651, guid: aac5663cbe063684bbdff8ba96320724,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6148,7 +6172,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -6197,7 +6220,8 @@ AudioSource:
   m_GameObject: {fileID: 1586907173}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 3572259265240212109, guid: 9fd39395c3600a94c84a329fff463e56, type: 2}
+  OutputAudioMixerGroup: {fileID: 3572259265240212109, guid: 9fd39395c3600a94c84a329fff463e56,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: f8740cc55688b8842b22b607bb525429, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.8
@@ -6344,7 +6368,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6369,7 +6392,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 2590185811940133651, guid: aac5663cbe063684bbdff8ba96320724, type: 3}
+  m_Sprite: {fileID: 2590185811940133651, guid: aac5663cbe063684bbdff8ba96320724,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6426,7 +6450,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6451,7 +6474,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -8541729936966452071, guid: aac5663cbe063684bbdff8ba96320724, type: 3}
+  m_Sprite: {fileID: -8541729936966452071, guid: aac5663cbe063684bbdff8ba96320724,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6508,7 +6532,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6533,7 +6556,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 6963310780842402770, guid: aac5663cbe063684bbdff8ba96320724, type: 3}
+  m_Sprite: {fileID: 6963310780842402770, guid: aac5663cbe063684bbdff8ba96320724,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6596,7 +6620,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -6697,7 +6720,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 0.6666667}
   m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -6784,7 +6806,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1681066329
 GameObject:
@@ -6869,11 +6891,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1691969524}
-        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
         m_MethodName: TapSound
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 6d080f076e50a4b41ad0fb6a17ace3cf, type: 3}
+          m_ObjectArgument: {fileID: 8300000, guid: 6d080f076e50a4b41ad0fb6a17ace3cf,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -6881,7 +6903,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 840353153}
-        m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
         m_MethodName: CloseContextPanel
         m_Mode: 1
         m_Arguments:
@@ -6893,7 +6914,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 355389177}
-        m_TargetAssemblyTypeName: OpenClosePanel, Assembly-CSharp
         m_MethodName: ClosePanel
         m_Mode: 2
         m_Arguments:
@@ -6919,12 +6939,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4987914821148657504, guid: 7a0b25773dc50a542bb3fe628d40a74a, type: 3}
+  m_Sprite: {fileID: -4987914821148657504, guid: 7a0b25773dc50a542bb3fe628d40a74a,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7010,7 +7030,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.7735849, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -7089,7 +7108,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -7201,7 +7219,7 @@ Transform:
   - {fileID: 1586907175}
   - {fileID: 604229022}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1696263408
 GameObject:
@@ -7258,7 +7276,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -7327,7 +7344,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7352,7 +7368,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -3648605702869075728, guid: aac5663cbe063684bbdff8ba96320724, type: 3}
+  m_Sprite: {fileID: -3648605702869075728, guid: aac5663cbe063684bbdff8ba96320724,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7441,7 +7458,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1739176282}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 73.6, y: 37.1, z: 0}
+  m_LocalPosition: {x: 19.6, y: 0.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7514,7 +7531,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -7590,7 +7606,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7615,7 +7630,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -8945918505079178096, guid: aac5663cbe063684bbdff8ba96320724, type: 3}
+  m_Sprite: {fileID: -8945918505079178096, guid: aac5663cbe063684bbdff8ba96320724,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7678,7 +7694,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.7725491, g: 0.34117648, b: 0.20784315, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -7756,12 +7771,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6969606138778327683, guid: aaaaddd36abd2f340bab2922c5e4f9ed, type: 3}
+  m_Sprite: {fileID: 6969606138778327683, guid: aaaaddd36abd2f340bab2922c5e4f9ed,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -7822,8 +7837,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fab03e63effdb1041ba0c5ac6091320b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gravityDown: {fileID: 6969606138778327683, guid: aaaaddd36abd2f340bab2922c5e4f9ed, type: 3}
-  _gravityTop: {fileID: -6971268377319356151, guid: aaaaddd36abd2f340bab2922c5e4f9ed, type: 3}
+  _gravityDown: {fileID: 6969606138778327683, guid: aaaaddd36abd2f340bab2922c5e4f9ed,
+    type: 3}
+  _gravityTop: {fileID: -6971268377319356151, guid: aaaaddd36abd2f340bab2922c5e4f9ed,
+    type: 3}
   _gravityIndicator: {fileID: 1843330247}
 --- !u!1 &1852762334
 GameObject:
@@ -7887,7 +7904,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7975,7 +7991,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.012459949, g: 0.5283019, b: 0.17297749, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -8054,7 +8069,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -8128,7 +8142,6 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8153,7 +8166,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 3831080924269049147, guid: aac5663cbe063684bbdff8ba96320724, type: 3}
+  m_Sprite: {fileID: 3831080924269049147, guid: aac5663cbe063684bbdff8ba96320724,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8166,22 +8180,26 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!4 &2099229122 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372,
+    type: 3}
   m_PrefabInstance: {fileID: 400438697058610298}
   m_PrefabAsset: {fileID: 0}
 --- !u!212 &2099229123 stripped
 SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 400438698482605497, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400438698482605497, guid: 466561ddfaef3b941a3367c595385372,
+    type: 3}
   m_PrefabInstance: {fileID: 400438697058610298}
   m_PrefabAsset: {fileID: 0}
 --- !u!50 &2099229125 stripped
 Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 400438698482605503, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400438698482605503, guid: 466561ddfaef3b941a3367c595385372,
+    type: 3}
   m_PrefabInstance: {fileID: 400438697058610298}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &2099229127 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 400438698482605501, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+  m_CorrespondingSourceObject: {fileID: 400438698482605501, guid: 466561ddfaef3b941a3367c595385372,
+    type: 3}
   m_PrefabInstance: {fileID: 400438697058610298}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -8273,11 +8291,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1691969524}
-        m_TargetAssemblyTypeName: Sounds, Assembly-CSharp
         m_MethodName: TapSound
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 6d080f076e50a4b41ad0fb6a17ace3cf, type: 3}
+          m_ObjectArgument: {fileID: 8300000, guid: 6d080f076e50a4b41ad0fb6a17ace3cf,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -8285,7 +8303,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 840353153}
-        m_TargetAssemblyTypeName: ContextMenu, Assembly-CSharp
         m_MethodName: CloseContextPanel
         m_Mode: 1
         m_Arguments:
@@ -8297,7 +8314,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 355389177}
-        m_TargetAssemblyTypeName: OpenClosePanel, Assembly-CSharp
         m_MethodName: ClosePanel
         m_Mode: 2
         m_Arguments:
@@ -8323,12 +8339,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4987914821148657504, guid: 7a0b25773dc50a542bb3fe628d40a74a, type: 3}
+  m_Sprite: {fileID: -4987914821148657504, guid: 7a0b25773dc50a542bb3fe628d40a74a,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8353,194 +8369,235 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: OpenRedDoor.m_PersistentCalls.m_Calls.Array.size
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
+      propertyPath: WinEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: _hint
       value: 
       objectReference: {fileID: 355389178}
-    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: OpenRedDoor.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: OpenRedDoor.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: OpenRedDoor.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 355389177}
-    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: OpenRedDoor.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: OpenClosePanel, Assembly-CSharp
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: OpenRedDoor.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OpenPanel
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: OpenRedDoor.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: OpenRedDoor.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 896195634}
-    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: OpenRedDoor.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: ContextMenu, Assembly-CSharp
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: OpenRedDoor.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: OpenRedDoor.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: OpenRedDoor.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 840353153}
-    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: OpenRedDoor.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: OpenContextPanel
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: OpenRedDoor.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605489, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
+      propertyPath: WinEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
+      propertyPath: WinEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
+      propertyPath: WinEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 840353153}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
+      propertyPath: WinEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenContextPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
+      propertyPath: WinEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
+      propertyPath: WinEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
+      propertyPath: WinEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
+      propertyPath: WinEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 355389177}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
+      propertyPath: WinEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: OpenPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
+      propertyPath: WinEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
+      propertyPath: WinEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 896195634}
+    - target: {fileID: 400438698482605488, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
+      propertyPath: _travelImage
+      value: 
+      objectReference: {fileID: 880268614}
+    - target: {fileID: 400438698482605489, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: _foodSlider
       value: 
       objectReference: {fileID: 952559460}
-    - target: {fileID: 400438698482605489, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605489, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: Die.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 840353153}
-    - target: {fileID: 400438698482605489, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605489, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: Die.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 355389177}
-    - target: {fileID: 400438698482605489, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605489, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: Die.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 1665281321}
-    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605496, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605499, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605499, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605499, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605499, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400438698482605502, guid: 466561ddfaef3b941a3367c595385372, type: 3}
+    - target: {fileID: 400438698482605502, guid: 466561ddfaef3b941a3367c595385372,
+        type: 3}
       propertyPath: _drawSlider
       value: 
       objectReference: {fileID: 995708108}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 466561ddfaef3b941a3367c595385372, type: 3}
---- !u!1001 &3502507196947957177
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3502507196741859180, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3502507196741859180, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3502507196741859180, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3502507196741859180, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3502507196741859180, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3502507196741859180, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3502507196741859180, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3502507196741859180, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3502507196741859180, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3502507196741859180, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3502507196741859180, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3502507196741859181, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}
-      propertyPath: m_Name
-      value: Emptiness
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c23abb4ed2fcdc945a864ef67ceb761f, type: 3}

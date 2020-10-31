@@ -14,7 +14,6 @@ public class SimpleDoor : MonoBehaviour
     [SerializeField] private TypeDoor _typeDoor;
     [SerializeField] private MapGenerator _mapGenerator;
     [SerializeField] private Animator _animator;
-    [SerializeField] private SpriteRenderer _starsWay;
 
     [SerializeField] private bool _isHole;
 
@@ -45,7 +44,7 @@ public class SimpleDoor : MonoBehaviour
 
         if (_typeDoor == TypeDoor.InSpace)
         {
-            _mapGenerator.RegenerationMap();
+            _mapGenerator.RegenerateMap();
             player.transform.position = Vector2.zero;
         }
         else if (_typeDoor == TypeDoor.InRoom)

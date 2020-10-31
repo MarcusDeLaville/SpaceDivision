@@ -16,7 +16,14 @@ public class EnergyStorage : MonoBehaviour
 
     private void Awake()
     {
-       _energyCount = PlayerPrefs.GetFloat("PowerCount");
+        if (PlayerPrefs.HasKey("PowerCount"))
+        {
+            _energyCount = PlayerPrefs.GetFloat("PowerCount");
+        }
+        else
+        {
+            _energyCount = 35;
+        }
     }
 
     private void Start()

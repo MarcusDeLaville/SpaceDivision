@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
+using DG.Tweening;
 
 public class Interaction : MonoBehaviour
 {
+    [SerializeField] private Image _travelImage;
+
     [SerializeField] private EnergyStorage _energyStorage;
     [SerializeField] private SupplySystem _supplySystem;
     [SerializeField] private Hint _hint;
@@ -14,9 +18,8 @@ public class Interaction : MonoBehaviour
     [SerializeField] private float _foodBankCapcity;
 
     private Coroutine _waitOpenDoor;
-    private bool _isInteract;
 
-    public UnityEvent OpenRedDoor;
+    public UnityEvent WinEvent;
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
@@ -25,13 +28,12 @@ public class Interaction : MonoBehaviour
             Destroy(collision.gameObject);
             _energyStorage.AddEnergy(_energyBankCapacity);
         }
-        else if (collision.gameObject.tag == "Food")
+        // реализация через тэги не конечно не самая хорошая, но времени на отдельные скрипты не хватило(
+        if (collision.gameObject.tag == "Food")
         {
             Destroy(collision.gameObject);
             _supplySystem.AddFood(_foodBankCapcity);
         }
-
-        //простите, я тут спешил  
 
         if(collision.gameObject.TryGetComponent(out SimpleDoor simpleDoor))
         {
@@ -51,16 +53,21 @@ public class Interaction : MonoBehaviour
     private IEnumerator CheakOpenDoor(SimpleDoor simpleDoor)
     {
         yield return new WaitUntil(() => Input.GetKeyDown(_interactionButton));
+
+        _travelImage.DOFillAmount(1, 1f).SetDelay(1f);
+        _travelImage.DOFillAmount(0, 1f).SetDelay(3.5f);
+
         simpleDoor.OnInteraction(gameObject);
     }
 
     private IEnumerator CheakOpenRedDoor(RedDoor redDoor)
     {
         yield return new WaitUntil(() => Input.GetKeyDown(_interactionButton));
+
         if (_energyStorage.EnergyCount >= 70)
         {
             yield return new WaitForSeconds(1.0f);
-            OpenRedDoor.Invoke();
+            redDoor.OnInterection(_energyStorage, WinEvent);
         }
     }
 

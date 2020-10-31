@@ -21,7 +21,7 @@ public class MapGenerator : MonoBehaviour
         GenerateMap();
     }
 
-    public void RegenerationMap()
+    public void RegenerateMap()
     {
         for (int i = 0; i < _generatedObject.Count; i++)
         {

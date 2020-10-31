@@ -10,7 +10,7 @@ public class ContextMenu : MonoBehaviour
 
     [SerializeField] private KeyCode _contextMenuButtton = KeyCode.Escape;
 
-    private void Start()
+    private void Awake()
     {
         CloseContextPanel();
     }

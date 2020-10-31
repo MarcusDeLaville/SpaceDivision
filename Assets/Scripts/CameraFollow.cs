@@ -8,6 +8,7 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private Transform _currentPosition;
 
     [SerializeField] private float _smooth;
+
     private void Update()
     {
         CameraMoving();

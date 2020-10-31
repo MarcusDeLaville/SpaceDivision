@@ -22,9 +22,10 @@ public class Prologue : MonoBehaviour
 
     private void Start()
     {
-        if (PlayerPrefs.GetInt(_prologueKey) != 1)
+        if (!PlayerPrefs.HasKey(_prologueKey))
         {
             StartPrologue.Invoke();
+            //Cursor.visible = true;
         }
     }
 
